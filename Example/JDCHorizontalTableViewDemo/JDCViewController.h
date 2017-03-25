@@ -14,6 +14,5 @@
 
 @interface JDCViewController : UIViewController<JDCHorizontalTableViewDataSource,JDCHorizontalTableViewDelegate>
 
-
 @end
 
