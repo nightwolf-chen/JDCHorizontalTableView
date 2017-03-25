@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 [![Platform](https://img.shields.io/cocoapods/p/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 
-## Quik start
+## Quick start
 
 Create JDCHorizontalTableView as any other view and setup all the properties:
 ```objective-c
