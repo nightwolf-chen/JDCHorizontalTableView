@@ -1,6 +1,7 @@
 # JDCHorizontalTableView
 
-[![CI Status](http://img.shields.io/travis/565408238@qq.com/JDCHorizontalTableView.svg?style=flat)](https://travis-ci.org/565408238@qq.com/JDCHorizontalTableView)
+[![CI Status](http://img.shields.io/travis/nightwolf-chen/JDCHorizontalTableView
+              .svg?style=flat)](https://travis-ci.org/nightwolf-chen/JDCHorizontalTableView)
 [![Version](https://img.shields.io/cocoapods/v/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 [![License](https://img.shields.io/cocoapods/l/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 [![Platform](https://img.shields.io/cocoapods/p/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
