@@ -1,16 +1,17 @@
 //
 //  main.m
-//  JDCHorizontalTableViewDemo
+//  JDCHorizontalTableView
 //
-//  Created by maochengrui on 25/03/2017.
-//  Copyright © 2017 565408238@qq.com. All rights reserved.
+//  Created by 565408238@qq.com on 03/25/2017.
+//  Copyright (c) 2017 565408238@qq.com. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+@import UIKit;
+#import "JDCAppDelegate.h"
 
-int main(int argc, char * argv[]) {
+int main(int argc, char * argv[])
+{
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JDCAppDelegate class]));
     }
 }

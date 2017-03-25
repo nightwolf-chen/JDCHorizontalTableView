@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF79403C802B3EA06421822A99E32C4 /* JDCHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9688D3947643644BB59891E807A7F4 /* JDCHorizontalTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2211E355BE11AADEAA3F0D9E88117140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		3F5316D413BF0D9B4E3833B6B1067E46 /* Pods-JDCHorizontalTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D6E0FA5E40E5F15E9171C6F107C6C /* Pods-JDCHorizontalTableView_Tests-dummy.m */; };
+		4699345D0764453AE1C298696ED15846 /* JDCHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9688D3947643644BB59891E807A7F4 /* JDCHorizontalTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47FD70134AFC46FAE9F6AB0E24DE7131 /* Pods-JDCHorizontalTableViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2583FF01DD0649D7C2341604EBF810 /* Pods-JDCHorizontalTableViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BD19145FD7E530A387CAE5B367A7B64 /* JDCHorizontalTableView-iOS10.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E21AF0A2540DE18B05848BC86521F2B8 /* JDCHorizontalTableView-iOS10.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C776BB49EFE5C9685591DB56CE27844 /* JDCHorizontalTableView-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7858313DEA76F30812E676854BF25462 /* JDCHorizontalTableView-iOS10.2-dummy.m */; };
+		65F276C76FCB187BC41F1F613DF13149 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		67A0DDD306B712A2C692AEC8E5195FB4 /* JDCHorizontalTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1993E22E0B369BF06AA0B4555F56963 /* JDCHorizontalTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C888F1EF6F16BBA98F7F2138A8949EF /* JDCHorizontalTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E057D888923764332A872D20DBC96A2 /* JDCHorizontalTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBE07D725667674D81671DD2564E285 /* Pods-JDCHorizontalTableViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B40328B0B0221C5036B671D49714596B /* Pods-JDCHorizontalTableViewDemo-dummy.m */; };
+		9B00998B9CFE20D53121701A3F9A27F2 /* JDCHorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73968686D275A52D5C80F2192E50B080 /* JDCHorizontalTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9ACB4D6CAA4F42AC62DA9630E3203F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		AA44F27D3E2D349EADB65EC5791443A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		BF3240ABF763E5B93C60D8F100D83073 /* JDCHorizontalTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1993E22E0B369BF06AA0B4555F56963 /* JDCHorizontalTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C66634CEEACEEF3AC0A89DD9F832C419 /* JDCHorizontalTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E057D888923764332A872D20DBC96A2 /* JDCHorizontalTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD6005BDE04D932DAB5212A61F05A283 /* JDCHorizontalTableView-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B105668544B70F110CB6DE0C9829B0 /* JDCHorizontalTableView-iOS8.3-dummy.m */; };
+		CE2E5F556B69987CB4E2C8E4EF2FE216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E98928B210850DFB7B452CB64FCD9457 /* Pods-JDCHorizontalTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A32D7486BAD00E65B7767C1B71D76FAC /* Pods-JDCHorizontalTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F158185D8800F5FDA1F8EF9232A307C4 /* JDCHorizontalTableView-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 973B397A3C450D3CA0F1CBFAE7C73302 /* JDCHorizontalTableView-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EF39BE8D53EAB63644BA757751BA8F /* JDCHorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73968686D275A52D5C80F2192E50B080 /* JDCHorizontalTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEEFE0E23187AF50781E3A6262DEBBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445B07F88731F0A8B3B6207C2060DB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BB65532F9AEA4E93CA93D72D72851B;
+			remoteInfo = "JDCHorizontalTableView-iOS10.2";
+		};
+		DEE3AF14217102857D8669998544613F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F079E99DC3000DD58DAB8942E3C114;
+			remoteInfo = "JDCHorizontalTableView-iOS8.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9688D3947643644BB59891E807A7F4 /* JDCHorizontalTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDCHorizontalTableView.m; sourceTree = "<group>"; };
+		16A6221A72AA545772F6BD8824BA12F6 /* Pods-JDCHorizontalTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCHorizontalTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2172710C2CA75420D8DDBCF3814DFD33 /* Pods_JDCHorizontalTableViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDCHorizontalTableViewDemo.framework; path = "Pods-JDCHorizontalTableViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35329C05D8F6EA5D4C1300ACB849E2A1 /* Pods-JDCHorizontalTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JDCHorizontalTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		38B105668544B70F110CB6DE0C9829B0 /* JDCHorizontalTableView-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JDCHorizontalTableView-iOS8.3-dummy.m"; path = "../JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		3D07F94DBCB964CB60FB8247F9970B75 /* Pods-JDCHorizontalTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCHorizontalTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3F1F5F5FB4F2E6DF6FA6836846E976C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E057D888923764332A872D20DBC96A2 /* JDCHorizontalTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDCHorizontalTableCell.h; sourceTree = "<group>"; };
+		572915D717CCA623D6DC2DCEDA508D69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62D021BD4E90404BE0F9CDECBABE67E7 /* JDCHorizontalTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDCHorizontalTableView.framework; path = "JDCHorizontalTableView-iOS8.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C0FD15C34D4ACAE60C13CF22C0BB25 /* JDCHorizontalTableView-iOS10.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "JDCHorizontalTableView-iOS10.2.modulemap"; sourceTree = "<group>"; };
+		656CEFD3F83A9D2D6C2854649BDD5063 /* Pods-JDCHorizontalTableViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCHorizontalTableViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		6D9D90C82B9B7C39E8305E42D56BC212 /* JDCHorizontalTableView-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JDCHorizontalTableView-iOS8.3-prefix.pch"; path = "../JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		719337B0703AE386B817CAB070A03843 /* Pods-JDCHorizontalTableViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCHorizontalTableViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73968686D275A52D5C80F2192E50B080 /* JDCHorizontalTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDCHorizontalTableView.h; sourceTree = "<group>"; };
+		7858313DEA76F30812E676854BF25462 /* JDCHorizontalTableView-iOS10.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCHorizontalTableView-iOS10.2-dummy.m"; sourceTree = "<group>"; };
+		7E6103B4287AB8ED7EA9EADC23B2EA0B /* JDCHorizontalTableView-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "JDCHorizontalTableView-iOS8.3.modulemap"; path = "../JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F2DD58E21E7A877CB3F62BE2B3853D8 /* JDCHorizontalTableView-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JDCHorizontalTableView-iOS8.3.xcconfig"; path = "../JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		85C08CC9E9279750C6057C36E9C9979C /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCHorizontalTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		86284BC6E98B0916E0DC82CC6EC615C7 /* JDCHorizontalTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDCHorizontalTableView.framework; path = "JDCHorizontalTableView-iOS10.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9426D13A22718C758E54CABA1D4C91C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973B397A3C450D3CA0F1CBFAE7C73302 /* JDCHorizontalTableView-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JDCHorizontalTableView-iOS8.3-umbrella.h"; path = "../JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
+		9824FB92521BBD5F4D79B8B940F74C3B /* Pods-JDCHorizontalTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCHorizontalTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9CADA551596FFF858B4E635E2743728C /* Pods-JDCHorizontalTableViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JDCHorizontalTableViewDemo.modulemap"; sourceTree = "<group>"; };
+		A32D7486BAD00E65B7767C1B71D76FAC /* Pods-JDCHorizontalTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDCHorizontalTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AA2FF7ABD21AB820CD41D5FDB6C0D31B /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCHorizontalTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B1993E22E0B369BF06AA0B4555F56963 /* JDCHorizontalTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDCHorizontalTableCell.m; sourceTree = "<group>"; };
+		B24DC82A08E3B04D5ECF217A72297F7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../JDCHorizontalTableView-iOS8.3/Info.plist"; sourceTree = "<group>"; };
+		B40328B0B0221C5036B671D49714596B /* Pods-JDCHorizontalTableViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCHorizontalTableViewDemo-dummy.m"; sourceTree = "<group>"; };
+		B482E0E93FC330D3CC2C3ECF6A56BAF6 /* JDCHorizontalTableView-iOS10.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JDCHorizontalTableView-iOS10.2.xcconfig"; sourceTree = "<group>"; };
+		D976C231E2F0A0E9CF73B369FA7A0731 /* Pods-JDCHorizontalTableViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCHorizontalTableViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBC07C34390AC79E63C6BF96D63828BB /* Pods_JDCHorizontalTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDCHorizontalTableView_Tests.framework; path = "Pods-JDCHorizontalTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE274CCE391A04BCEB40A16715E62BD7 /* Pods-JDCHorizontalTableViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCHorizontalTableViewDemo-resources.sh"; sourceTree = "<group>"; };
+		E03E5B007792F349F43E377014374F6F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCHorizontalTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E21AF0A2540DE18B05848BC86521F2B8 /* JDCHorizontalTableView-iOS10.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCHorizontalTableView-iOS10.2-umbrella.h"; sourceTree = "<group>"; };
+		E792E5644B220586E2FB17239AEC32A2 /* JDCHorizontalTableView-iOS10.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCHorizontalTableView-iOS10.2-prefix.pch"; sourceTree = "<group>"; };
+		E9910BD49AF6646A607808FFF86B25FD /* Pods-JDCHorizontalTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCHorizontalTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA2583FF01DD0649D7C2341604EBF810 /* Pods-JDCHorizontalTableViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDCHorizontalTableViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		EA4D6E0FA5E40E5F15E9171C6F107C6C /* Pods-JDCHorizontalTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCHorizontalTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		EEC791382E477572AE104D94B139C934 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCHorizontalTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7785D3D90C537E320BD2D52B1AF484C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA44F27D3E2D349EADB65EC5791443A9 /* Foundation.framework in Frameworks */,
+				2211E355BE11AADEAA3F0D9E88117140 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0B6576F129EB21D7089F6E5F021E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E5F556B69987CB4E2C8E4EF2FE216 /* Foundation.framework in Frameworks */,
+				65F276C76FCB187BC41F1F613DF13149 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D852E7EF1972FF2FC0F970F88D24A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEEFE0E23187AF50781E3A6262DEBBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04B770A64851793326EBE30961246E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9ACB4D6CAA4F42AC62DA9630E3203F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538A2664A4BC15623EDAB1926759BBF8 /* Pods-JDCHorizontalTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1F5F5FB4F2E6DF6FA6836846E976C8 /* Info.plist */,
+				35329C05D8F6EA5D4C1300ACB849E2A1 /* Pods-JDCHorizontalTableView_Tests.modulemap */,
+				E9910BD49AF6646A607808FFF86B25FD /* Pods-JDCHorizontalTableView_Tests-acknowledgements.markdown */,
+				16A6221A72AA545772F6BD8824BA12F6 /* Pods-JDCHorizontalTableView_Tests-acknowledgements.plist */,
+				EA4D6E0FA5E40E5F15E9171C6F107C6C /* Pods-JDCHorizontalTableView_Tests-dummy.m */,
+				9824FB92521BBD5F4D79B8B940F74C3B /* Pods-JDCHorizontalTableView_Tests-frameworks.sh */,
+				3D07F94DBCB964CB60FB8247F9970B75 /* Pods-JDCHorizontalTableView_Tests-resources.sh */,
+				A32D7486BAD00E65B7767C1B71D76FAC /* Pods-JDCHorizontalTableView_Tests-umbrella.h */,
+				EEC791382E477572AE104D94B139C934 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */,
+				AA2FF7ABD21AB820CD41D5FDB6C0D31B /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JDCHorizontalTableView_Tests";
+			path = "Target Support Files/Pods-JDCHorizontalTableView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EF407D8923008EFC8AA4CD9D7DDEBB61 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AFA123ECFD003395470318D599E29481 /* Products */,
+				B8D345E50844244888C68AEA65306C63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA123ECFD003395470318D599E29481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86284BC6E98B0916E0DC82CC6EC615C7 /* JDCHorizontalTableView.framework */,
+				62D021BD4E90404BE0F9CDECBABE67E7 /* JDCHorizontalTableView.framework */,
+				DBC07C34390AC79E63C6BF96D63828BB /* Pods_JDCHorizontalTableView_Tests.framework */,
+				2172710C2CA75420D8DDBCF3814DFD33 /* Pods_JDCHorizontalTableViewDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BE99701587E10EA21BBE2A510E1002 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24DC82A08E3B04D5ECF217A72297F7A /* Info.plist */,
+				572915D717CCA623D6DC2DCEDA508D69 /* Info.plist */,
+				64C0FD15C34D4ACAE60C13CF22C0BB25 /* JDCHorizontalTableView-iOS10.2.modulemap */,
+				B482E0E93FC330D3CC2C3ECF6A56BAF6 /* JDCHorizontalTableView-iOS10.2.xcconfig */,
+				7858313DEA76F30812E676854BF25462 /* JDCHorizontalTableView-iOS10.2-dummy.m */,
+				E792E5644B220586E2FB17239AEC32A2 /* JDCHorizontalTableView-iOS10.2-prefix.pch */,
+				E21AF0A2540DE18B05848BC86521F2B8 /* JDCHorizontalTableView-iOS10.2-umbrella.h */,
+				7E6103B4287AB8ED7EA9EADC23B2EA0B /* JDCHorizontalTableView-iOS8.3.modulemap */,
+				7F2DD58E21E7A877CB3F62BE2B3853D8 /* JDCHorizontalTableView-iOS8.3.xcconfig */,
+				38B105668544B70F110CB6DE0C9829B0 /* JDCHorizontalTableView-iOS8.3-dummy.m */,
+				6D9D90C82B9B7C39E8305E42D56BC212 /* JDCHorizontalTableView-iOS8.3-prefix.pch */,
+				973B397A3C450D3CA0F1CBFAE7C73302 /* JDCHorizontalTableView-iOS8.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDCHorizontalTableView-iOS10.2";
+			sourceTree = "<group>";
+		};
+		B8D345E50844244888C68AEA65306C63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				538A2664A4BC15623EDAB1926759BBF8 /* Pods-JDCHorizontalTableView_Tests */,
+				E3E3E7F36ED4C4E0C46A639BEBEE49CF /* Pods-JDCHorizontalTableViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB14D23308372F3B055EEABE69014E33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E057D888923764332A872D20DBC96A2 /* JDCHorizontalTableCell.h */,
+				B1993E22E0B369BF06AA0B4555F56963 /* JDCHorizontalTableCell.m */,
+				73968686D275A52D5C80F2192E50B080 /* JDCHorizontalTableView.h */,
+				0C9688D3947643644BB59891E807A7F4 /* JDCHorizontalTableView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C9E2FBBF793ADFAF620308F008686E2D /* JDCHorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EECFA8F779A86FB317CDC6B400FBA40E /* JDCHorizontalTableView */,
+				B3BE99701587E10EA21BBE2A510E1002 /* Support Files */,
+			);
+			name = JDCHorizontalTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3E3E7F36ED4C4E0C46A639BEBEE49CF /* Pods-JDCHorizontalTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9426D13A22718C758E54CABA1D4C91C8 /* Info.plist */,
+				9CADA551596FFF858B4E635E2743728C /* Pods-JDCHorizontalTableViewDemo.modulemap */,
+				719337B0703AE386B817CAB070A03843 /* Pods-JDCHorizontalTableViewDemo-acknowledgements.markdown */,
+				D976C231E2F0A0E9CF73B369FA7A0731 /* Pods-JDCHorizontalTableViewDemo-acknowledgements.plist */,
+				B40328B0B0221C5036B671D49714596B /* Pods-JDCHorizontalTableViewDemo-dummy.m */,
+				656CEFD3F83A9D2D6C2854649BDD5063 /* Pods-JDCHorizontalTableViewDemo-frameworks.sh */,
+				DE274CCE391A04BCEB40A16715E62BD7 /* Pods-JDCHorizontalTableViewDemo-resources.sh */,
+				EA2583FF01DD0649D7C2341604EBF810 /* Pods-JDCHorizontalTableViewDemo-umbrella.h */,
+				85C08CC9E9279750C6057C36E9C9979C /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */,
+				E03E5B007792F349F43E377014374F6F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */,
+			);
+			name = "Pods-JDCHorizontalTableViewDemo";
+			path = "Target Support Files/Pods-JDCHorizontalTableViewDemo";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EECFA8F779A86FB317CDC6B400FBA40E /* JDCHorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BB14D23308372F3B055EEABE69014E33 /* Classes */,
+			);
+			name = JDCHorizontalTableView;
+			path = JDCHorizontalTableView;
+			sourceTree = "<group>";
+		};
+		EF407D8923008EFC8AA4CD9D7DDEBB61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2FBBF793ADFAF620308F008686E2D /* JDCHorizontalTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		069D878CA46309EB663EE5756A1A9932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FD70134AFC46FAE9F6AB0E24DE7131 /* Pods-JDCHorizontalTableViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372042937D4D9C0CC995859F0C6F2F14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98928B210850DFB7B452CB64FCD9457 /* Pods-JDCHorizontalTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2BBEFC243711AD99815575EE921EE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66634CEEACEEF3AC0A89DD9F832C419 /* JDCHorizontalTableCell.h in Headers */,
+				F158185D8800F5FDA1F8EF9232A307C4 /* JDCHorizontalTableView-iOS8.3-umbrella.h in Headers */,
+				9B00998B9CFE20D53121701A3F9A27F2 /* JDCHorizontalTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA6FA86DC600CCAB3D8E9ADE66374B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C888F1EF6F16BBA98F7F2138A8949EF /* JDCHorizontalTableCell.h in Headers */,
+				5BD19145FD7E530A387CAE5B367A7B64 /* JDCHorizontalTableView-iOS10.2-umbrella.h in Headers */,
+				F9EF39BE8D53EAB63644BA757751BA8F /* JDCHorizontalTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		291E53A33A93EA0557E1AA066F3689FE /* Pods-JDCHorizontalTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507F9BD049D0A41C1C3F322B8C73F782 /* Build configuration list for PBXNativeTarget "Pods-JDCHorizontalTableViewDemo" */;
+			buildPhases = (
+				8279DC9E88147E77CDB43CEB6ECBC38A /* Sources */,
+				D4D852E7EF1972FF2FC0F970F88D24A3 /* Frameworks */,
+				069D878CA46309EB663EE5756A1A9932 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F978B10621AA89B00CD7D0954FF232E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDCHorizontalTableViewDemo";
+			productName = "Pods-JDCHorizontalTableViewDemo";
+			productReference = 2172710C2CA75420D8DDBCF3814DFD33 /* Pods_JDCHorizontalTableViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9BB65532F9AEA4E93CA93D72D72851B /* JDCHorizontalTableView-iOS10.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE26FA989529C93244D87B9F6BC977F3 /* Build configuration list for PBXNativeTarget "JDCHorizontalTableView-iOS10.2" */;
+			buildPhases = (
+				B6DD42973E6D4163B2EBC8FF0D521B31 /* Sources */,
+				9D0B6576F129EB21D7089F6E5F021E35 /* Frameworks */,
+				DFA6FA86DC600CCAB3D8E9ADE66374B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JDCHorizontalTableView-iOS10.2";
+			productName = "JDCHorizontalTableView-iOS10.2";
+			productReference = 86284BC6E98B0916E0DC82CC6EC615C7 /* JDCHorizontalTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4902F99898002C83C096636C14E66CB /* Pods-JDCHorizontalTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069F82D9098E467E0E52BBF1D6EC60ED /* Build configuration list for PBXNativeTarget "Pods-JDCHorizontalTableView_Tests" */;
+			buildPhases = (
+				30CF635C77E647186BF3F5C8C542017D /* Sources */,
+				E04B770A64851793326EBE30961246E0 /* Frameworks */,
+				372042937D4D9C0CC995859F0C6F2F14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87F6A37FBD0C1C9BDF3212512A38A6A /* PBXTargetDependency */,
+			);
+			name = "Pods-JDCHorizontalTableView_Tests";
+			productName = "Pods-JDCHorizontalTableView_Tests";
+			productReference = DBC07C34390AC79E63C6BF96D63828BB /* Pods_JDCHorizontalTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9F079E99DC3000DD58DAB8942E3C114 /* JDCHorizontalTableView-iOS8.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24631760067B61C96F586D3E02E8480D /* Build configuration list for PBXNativeTarget "JDCHorizontalTableView-iOS8.3" */;
+			buildPhases = (
+				868613E9AE77BA06C96782E01CB36DCE /* Sources */,
+				7785D3D90C537E320BD2D52B1AF484C4 /* Frameworks */,
+				7E2BBEFC243711AD99815575EE921EE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JDCHorizontalTableView-iOS8.3";
+			productName = "JDCHorizontalTableView-iOS8.3";
+			productReference = 62D021BD4E90404BE0F9CDECBABE67E7 /* JDCHorizontalTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AFA123ECFD003395470318D599E29481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BB65532F9AEA4E93CA93D72D72851B /* JDCHorizontalTableView-iOS10.2 */,
+				D9F079E99DC3000DD58DAB8942E3C114 /* JDCHorizontalTableView-iOS8.3 */,
+				B4902F99898002C83C096636C14E66CB /* Pods-JDCHorizontalTableView_Tests */,
+				291E53A33A93EA0557E1AA066F3689FE /* Pods-JDCHorizontalTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CF635C77E647186BF3F5C8C542017D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5316D413BF0D9B4E3833B6B1067E46 /* Pods-JDCHorizontalTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8279DC9E88147E77CDB43CEB6ECBC38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE07D725667674D81671DD2564E285 /* Pods-JDCHorizontalTableViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868613E9AE77BA06C96782E01CB36DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A0DDD306B712A2C692AEC8E5195FB4 /* JDCHorizontalTableCell.m in Sources */,
+				CD6005BDE04D932DAB5212A61F05A283 /* JDCHorizontalTableView-iOS8.3-dummy.m in Sources */,
+				4699345D0764453AE1C298696ED15846 /* JDCHorizontalTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DD42973E6D4163B2EBC8FF0D521B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3240ABF763E5B93C60D8F100D83073 /* JDCHorizontalTableCell.m in Sources */,
+				5C776BB49EFE5C9685591DB56CE27844 /* JDCHorizontalTableView-iOS10.2-dummy.m in Sources */,
+				1BF79403C802B3EA06421822A99E32C4 /* JDCHorizontalTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87F6A37FBD0C1C9BDF3212512A38A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JDCHorizontalTableView-iOS8.3";
+			target = D9F079E99DC3000DD58DAB8942E3C114 /* JDCHorizontalTableView-iOS8.3 */;
+			targetProxy = DEE3AF14217102857D8669998544613F /* PBXContainerItemProxy */;
+		};
+		F978B10621AA89B00CD7D0954FF232E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JDCHorizontalTableView-iOS10.2";
+			target = A9BB65532F9AEA4E93CA93D72D72851B /* JDCHorizontalTableView-iOS10.2 */;
+			targetProxy = 445B07F88731F0A8B3B6207C2060DB07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36A505263C7CC3B68173769A3B7EA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC791382E477572AE104D94B139C934 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDCHorizontalTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JDCHorizontalTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6957B35ABC3505F23C921A9AA481D893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B482E0E93FC330D3CC2C3ECF6A56BAF6 /* JDCHorizontalTableView-iOS10.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCHorizontalTableView-iOS10.2/JDCHorizontalTableView-iOS10.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCHorizontalTableView-iOS10.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCHorizontalTableView-iOS10.2/JDCHorizontalTableView-iOS10.2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JDCHorizontalTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90C91668A77E6E0A1FCEA743FD4BD43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03E5B007792F349F43E377014374F6F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDCHorizontalTableViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JDCHorizontalTableViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ACDA7FB8DDCFAC236166CE489C1CB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2DD58E21E7A877CB3F62BE2B3853D8 /* JDCHorizontalTableView-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCHorizontalTableView-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JDCHorizontalTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF3A56080CD973DF6F4134A78F6CFC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B482E0E93FC330D3CC2C3ECF6A56BAF6 /* JDCHorizontalTableView-iOS10.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCHorizontalTableView-iOS10.2/JDCHorizontalTableView-iOS10.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCHorizontalTableView-iOS10.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCHorizontalTableView-iOS10.2/JDCHorizontalTableView-iOS10.2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JDCHorizontalTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D14D3A7E153434A6E9F30E6B0E6A921B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2FF7ABD21AB820CD41D5FDB6C0D31B /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDCHorizontalTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JDCHorizontalTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4E6B93BEAFE80D5965BE1E098930BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C08CC9E9279750C6057C36E9C9979C /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDCHorizontalTableViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JDCHorizontalTableViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED639DDBC876BA9731BD565522C415A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2DD58E21E7A877CB3F62BE2B3853D8 /* JDCHorizontalTableView-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCHorizontalTableView-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCHorizontalTableView-iOS8.3/JDCHorizontalTableView-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JDCHorizontalTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069F82D9098E467E0E52BBF1D6EC60ED /* Build configuration list for PBXNativeTarget "Pods-JDCHorizontalTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A505263C7CC3B68173769A3B7EA487 /* Debug */,
+				D14D3A7E153434A6E9F30E6B0E6A921B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24631760067B61C96F586D3E02E8480D /* Build configuration list for PBXNativeTarget "JDCHorizontalTableView-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED639DDBC876BA9731BD565522C415A5 /* Debug */,
+				9ACDA7FB8DDCFAC236166CE489C1CB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507F9BD049D0A41C1C3F322B8C73F782 /* Build configuration list for PBXNativeTarget "Pods-JDCHorizontalTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E6B93BEAFE80D5965BE1E098930BE4 /* Debug */,
+				90C91668A77E6E0A1FCEA743FD4BD43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE26FA989529C93244D87B9F6BC977F3 /* Build configuration list for PBXNativeTarget "JDCHorizontalTableView-iOS10.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6957B35ABC3505F23C921A9AA481D893 /* Debug */,
+				CF3A56080CD973DF6F4134A78F6CFC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

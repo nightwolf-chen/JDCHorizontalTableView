@@ -13,11 +13,21 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		8D661CFA1E864A23003EAB16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CF91E864A23003EAB16 /* main.m */; };
+		8D661D031E864A23003EAB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D661D011E864A23003EAB16 /* Main.storyboard */; };
+		8D661D051E864A23003EAB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D661D041E864A23003EAB16 /* Assets.xcassets */; };
+		8D661D081E864A23003EAB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D661D061E864A23003EAB16 /* LaunchScreen.storyboard */; };
+		8D661D121E864A7C003EAB16 /* JDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D661D0E1E864A7C003EAB16 /* JDCAppDelegate.m */; };
+		8D661D131E864A7C003EAB16 /* JDCCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D661D0F1E864A7C003EAB16 /* JDCCustomCell.xib */; };
+		8D661D141E864A7C003EAB16 /* JDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D661D111E864A7C003EAB16 /* JDCViewController.m */; };
+		A32528FDCAA85FF23314EB05 /* Pods_JDCHorizontalTableViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5929BA9B1F478F8F015EF5E7 /* Pods_JDCHorizontalTableViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08693D8E33C9AAFA21F0FC91 /* JDCHorizontalTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDCHorizontalTableView.podspec; path = ../JDCHorizontalTableView.podspec; sourceTree = "<group>"; };
-		2DE69915B72C51A9B24775F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		08693D8E33C9AAFA21F0FC91 /* JDCHorizontalTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDCHorizontalTableView.podspec; path = ../JDCHorizontalTableView.podspec; sourceTree = "<group>"; };
+		2DE69915B72C51A9B24775F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D68903E7F9485159189C92F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCHorizontalTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5929BA9B1F478F8F015EF5E7 /* Pods_JDCHorizontalTableViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDCHorizontalTableViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,8 +37,20 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6969195854BCE3E58C093B47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6969195854BCE3E58C093B47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		82944F2D32B106C17C8F75F6 /* Pods_JDCHorizontalTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDCHorizontalTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D661CF61E864A23003EAB16 /* JDCHorizontalTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDCHorizontalTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D661CF91E864A23003EAB16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D661D021E864A23003EAB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D661D041E864A23003EAB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D661D071E864A23003EAB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D661D091E864A23003EAB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D661D0D1E864A7C003EAB16 /* JDCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCAppDelegate.h; sourceTree = "<group>"; };
+		8D661D0E1E864A7C003EAB16 /* JDCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCAppDelegate.m; sourceTree = "<group>"; };
+		8D661D0F1E864A7C003EAB16 /* JDCCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDCCustomCell.xib; sourceTree = "<group>"; };
+		8D661D101E864A7C003EAB16 /* JDCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCViewController.h; sourceTree = "<group>"; };
+		8D661D111E864A7C003EAB16 /* JDCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCViewController.m; sourceTree = "<group>"; };
+		9B363B97F844CC07CB1463DA /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCHorizontalTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A115147D12C6FDD2B8627CF1 /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCHorizontalTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B06B4E991A9E559768A18205 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCHorizontalTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +67,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D661CF31E864A23003EAB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32528FDCAA85FF23314EB05 /* Pods_JDCHorizontalTableViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +83,8 @@
 			children = (
 				B06B4E991A9E559768A18205 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */,
 				A115147D12C6FDD2B8627CF1 /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */,
+				9B363B97F844CC07CB1463DA /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */,
+				4D68903E7F9485159189C92F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,6 +94,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				8D661CF71E864A23003EAB16 /* JDCHorizontalTableViewDemo */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				0860EC9FBE2E3C64754BE9A4 /* Pods */,
@@ -72,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5AE195388D20070C39A /* JDCHorizontalTableView_Tests.xctest */,
+				8D661CF61E864A23003EAB16 /* JDCHorizontalTableViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +118,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				82944F2D32B106C17C8F75F6 /* Pods_JDCHorizontalTableView_Tests.framework */,
+				5929BA9B1F478F8F015EF5E7 /* Pods_JDCHorizontalTableViewDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +152,31 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8D661CF71E864A23003EAB16 /* JDCHorizontalTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D661D0D1E864A7C003EAB16 /* JDCAppDelegate.h */,
+				8D661D0E1E864A7C003EAB16 /* JDCAppDelegate.m */,
+				8D661D0F1E864A7C003EAB16 /* JDCCustomCell.xib */,
+				8D661D101E864A7C003EAB16 /* JDCViewController.h */,
+				8D661D111E864A7C003EAB16 /* JDCViewController.m */,
+				8D661D011E864A23003EAB16 /* Main.storyboard */,
+				8D661D041E864A23003EAB16 /* Assets.xcassets */,
+				8D661D061E864A23003EAB16 /* LaunchScreen.storyboard */,
+				8D661D091E864A23003EAB16 /* Info.plist */,
+				8D661CF81E864A23003EAB16 /* Supporting Files */,
+			);
+			path = JDCHorizontalTableViewDemo;
+			sourceTree = "<group>";
+		};
+		8D661CF81E864A23003EAB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CF91E864A23003EAB16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +200,26 @@
 			productReference = 6003F5AE195388D20070C39A /* JDCHorizontalTableView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8D661CF51E864A23003EAB16 /* JDCHorizontalTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D661D0C1E864A23003EAB16 /* Build configuration list for PBXNativeTarget "JDCHorizontalTableViewDemo" */;
+			buildPhases = (
+				930CD605C99B31E93B7BB872 /* [CP] Check Pods Manifest.lock */,
+				8D661CF21E864A23003EAB16 /* Sources */,
+				8D661CF31E864A23003EAB16 /* Frameworks */,
+				8D661CF41E864A23003EAB16 /* Resources */,
+				4B3551BAECF11C5D07C086A3 /* [CP] Embed Pods Frameworks */,
+				F1A5A0CA1A8A95F165F76B85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDCHorizontalTableViewDemo;
+			productName = JDCHorizontalTableViewDemo;
+			productReference = 8D661CF61E864A23003EAB16 /* JDCHorizontalTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,7 +231,13 @@
 				ORGANIZATIONNAME = "565408238@qq.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 6BQ9D3YQW4;
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					8D661CF51E864A23003EAB16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6BQ9D3YQW4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -169,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* JDCHorizontalTableView_Tests */,
+				8D661CF51E864A23003EAB16 /* JDCHorizontalTableViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D661CF41E864A23003EAB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D661D081E864A23003EAB16 /* LaunchScreen.storyboard in Resources */,
+				8D661D051E864A23003EAB16 /* Assets.xcassets in Resources */,
+				8D661D131E864A7C003EAB16 /* JDCCustomCell.xib in Resources */,
+				8D661D031E864A23003EAB16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +298,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4B3551BAECF11C5D07C086A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6F98F1F975A5B39902A2625B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +326,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDCHorizontalTableView_Tests/Pods-JDCHorizontalTableView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930CD605C99B31E93B7BB872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A5A0CA1A8A95F165F76B85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDCHorizontalTableViewDemo/Pods-JDCHorizontalTableViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA94805FC0F24B571C3D8809 /* [CP] Check Pods Manifest.lock */ = {
@@ -241,6 +384,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D661CF21E864A23003EAB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D661D121E864A7C003EAB16 /* JDCAppDelegate.m in Sources */,
+				8D661CFA1E864A23003EAB16 /* main.m in Sources */,
+				8D661D141E864A7C003EAB16 /* JDCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -250,6 +403,22 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D661D011E864A23003EAB16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D661D021E864A23003EAB16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D661D061E864A23003EAB16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D661D071E864A23003EAB16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -332,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B06B4E991A9E559768A18205 /* Pods-JDCHorizontalTableView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6BQ9D3YQW4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -355,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A115147D12C6FDD2B8627CF1 /* Pods-JDCHorizontalTableView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6BQ9D3YQW4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +538,53 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDCHorizontalTableView_Example.app/JDCHorizontalTableView_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		8D661D0A1E864A23003EAB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B363B97F844CC07CB1463DA /* Pods-JDCHorizontalTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6BQ9D3YQW4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JDCHorizontalTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jidong.JDCHorizontalTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D661D0B1E864A23003EAB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D68903E7F9485159189C92F /* Pods-JDCHorizontalTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6BQ9D3YQW4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JDCHorizontalTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jidong.JDCHorizontalTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -390,6 +608,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8D661D0C1E864A23003EAB16 /* Build configuration list for PBXNativeTarget "JDCHorizontalTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D661D0A1E864A23003EAB16 /* Debug */,
+				8D661D0B1E864A23003EAB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

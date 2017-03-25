@@ -1,0 +1,16 @@
+PODS:
+  - JDCHorizontalTableView (0.1.0)
+
+DEPENDENCIES:
+  - JDCHorizontalTableView (from `../`)
+
+EXTERNAL SOURCES:
+  JDCHorizontalTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDCHorizontalTableView: 5a9cffe5fcad251b206b3aeb79f3a5e32f7deb1e
+
+PODFILE CHECKSUM: e7ceecf0b5d73e8ee4457f7152969be042c15b76
+
+COCOAPODS: 1.1.1

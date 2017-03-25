@@ -11,6 +11,7 @@
 #import <JDCHorizontalTableView/JDCHorizontalTableView.h>
 
 
+
 @interface JDCViewController : UIViewController<JDCHorizontalTableViewDataSource,JDCHorizontalTableViewDelegate>
 
 

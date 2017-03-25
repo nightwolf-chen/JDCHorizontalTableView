@@ -1,6 +1,11 @@
+
 use_frameworks!
+
 target 'JDCHorizontalTableView_Tests' do
   pod 'JDCHorizontalTableView', :path => '../'
+end
   
   
+target 'JDCHorizontalTableViewDemo' do
+  pod 'JDCHorizontalTableView', :path => '../'
 end

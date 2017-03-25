@@ -1,0 +1,6 @@
+framework module Pods_JDCHorizontalTableViewDemo {
+  umbrella header "Pods-JDCHorizontalTableViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
