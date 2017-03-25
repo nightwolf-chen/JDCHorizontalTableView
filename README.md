@@ -5,10 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 [![Platform](https://img.shields.io/cocoapods/p/JDCHorizontalTableView.svg?style=flat)](http://cocoapods.org/pods/JDCHorizontalTableView)
 
-##Quik start
+## Quik start
 
 Create JDCHorizontalTableView as any other view and setup all the properties:
-```objective c
+```objective-c
     self.tableView = [[JDCHorizontalTableView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 300)];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -27,14 +27,14 @@ Create JDCHorizontalTableView as any other view and setup all the properties:
 ```
 
 Just like UITableView. You just need setup delegate and data source first.
-```objective c
+```objective-c
 @interface JDCViewController : UIViewController<JDCHorizontalTableViewDataSource,JDCHorizontalTableViewDelegate>
 
 @end
 ```
 
 Implement the Datasource and Delegate methods
-```objective c
+```objective-c
 
 - (JDCHorizontalTableCell *)ps_tableView:(JDCHorizontalTableView *)tableView columForIndexPath:(NSUInteger)index
 {
