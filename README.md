@@ -81,7 +81,7 @@ pod "JDCHorizontalTableView"
 
 ## Author
 
-Jidong Chen, jidongchen@gmail.com
+Jidong Chen, jidongchen93@gmail.com
 
 ## License
 
