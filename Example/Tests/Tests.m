@@ -2,8 +2,8 @@
 //  JDCHorizontalTableViewTests.m
 //  JDCHorizontalTableViewTests
 //
-//  Created by 565408238@qq.com on 03/25/2017.
-//  Copyright (c) 2017 565408238@qq.com. All rights reserved.
+//  Created by Jidong Chen on 03/25/2017.
+//  Copyright (c) 2017 Jidong Chen All rights reserved.
 //
 
 @import XCTest;

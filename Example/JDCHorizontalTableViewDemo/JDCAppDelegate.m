@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  HorizontalTableView
 //
-//  Created by exitingchen on 15/1/27.
-//  Copyright (c) 2015年 Nirvawolf. All rights reserved.
+//  Created by Jidong Chen on 15/1/27.
+//  Copyright (c) 2015年 Jidong Chen. All rights reserved.
 //
 
 #import "JDCAppDelegate.h"
